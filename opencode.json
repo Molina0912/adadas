@@ -39,7 +39,15 @@
     "~/.config/opencode/rules/module-isolation.md",
     "~/.config/opencode/rules/responsive-first.md",
     "~/.config/opencode/rules/state-management-discipline.md",
-    "~/.config/opencode/rules/documentation-sync.md"
+    "~/.config/opencode/rules/documentation-sync.md",
+    "~/.config/opencode/rules/code-complexity-limit.md",
+    "~/.config/opencode/rules/dependency-injection-discipline.md",
+    "~/.config/opencode/rules/data-privacy-by-design.md",
+    "~/.config/opencode/rules/ml-reproducibility-checklist.md",
+    "~/.config/opencode/rules/ai-output-validation.md",
+    "~/.config/opencode/rules/agent-self-assessment.md",
+    "~/.config/opencode/rules/structured-logging-discipline.md",
+    "~/.config/opencode/rules/i18n-a11y-by-default.md"
   ],
 
   "skills": {
