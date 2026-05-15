@@ -47,7 +47,18 @@
     "~/.config/opencode/rules/ai-output-validation.md",
     "~/.config/opencode/rules/agent-self-assessment.md",
     "~/.config/opencode/rules/structured-logging-discipline.md",
-    "~/.config/opencode/rules/i18n-a11y-by-default.md"
+    "~/.config/opencode/rules/i18n-a11y-by-default.md",
+    "~/.config/opencode/rules/hallucination-prevention.md",
+    "~/.config/opencode/rules/context-window-management.md",
+    "~/.config/opencode/rules/multi-turn-consistency.md",
+    "~/.config/opencode/rules/user-intent-verification.md",
+    "~/.config/opencode/rules/ethical-boundaries.md",
+    "~/.config/opencode/rules/performance-awareness.md",
+    "~/.config/opencode/rules/database-performance.md",
+    "~/.config/opencode/rules/observability-by-design.md",
+    "~/.config/opencode/rules/dependency-risk-assessment.md",
+    "~/.config/opencode/rules/documentation-as-code.md",
+    "~/.config/opencode/rules/collaboration-ready.md"
   ],
 
   "skills": {
