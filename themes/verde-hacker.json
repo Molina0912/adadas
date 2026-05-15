@@ -1,0 +1,215 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "hackerBlack": "#0a0a0a",
+    "hackerDark": "#0d1f0d",
+    "hackerDim": "#1a3a1a",
+    "matrixGreen": "#00ff00",
+    "brightGreen": "#39ff14",
+    "terminalGreen": "#00ff41",
+    "limeGreen": "#32cd32",
+    "neonGreen": "#00fa9a"
+  },
+  "theme": {
+    "primary": {
+      "dark": "brightGreen",
+      "light": "matrixGreen"
+    },
+    "secondary": {
+      "dark": "limeGreen",
+      "light": "matrixGreen"
+    },
+    "accent": {
+      "dark": "neonGreen",
+      "light": "terminalGreen"
+    },
+    "error": {
+      "dark": "#ff3333",
+      "light": "#ff0000"
+    },
+    "warning": {
+      "dark": "#ffff00",
+      "light": "#ffcc00"
+    },
+    "success": {
+      "dark": "brightGreen",
+      "light": "matrixGreen"
+    },
+    "info": {
+      "dark": "terminalGreen",
+      "light": "limeGreen"
+    },
+    "text": {
+      "dark": "matrixGreen",
+      "light": "hackerBlack"
+    },
+    "textMuted": {
+      "dark": "#1a5c1a",
+      "light": "#2d2d2d"
+    },
+    "background": {
+      "dark": "hackerBlack",
+      "light": "#0a0a0a"
+    },
+    "backgroundPanel": {
+      "dark": "hackerDark",
+      "light": "#0d0d0d"
+    },
+    "backgroundElement": {
+      "dark": "hackerDim",
+      "light": "#141414"
+    },
+    "border": {
+      "dark": "hackerDim",
+      "light": "#1a3a1a"
+    },
+    "borderActive": {
+      "dark": "matrixGreen",
+      "light": "terminalGreen"
+    },
+    "borderSubtle": {
+      "dark": "#0f2f0f",
+      "light": "#1a1a1a"
+    },
+    "diffAdded": {
+      "dark": "matrixGreen",
+      "light": "brightGreen"
+    },
+    "diffRemoved": {
+      "dark": "#ff3333",
+      "light": "#ff0000"
+    },
+    "diffContext": {
+      "dark": "#1a3a1a",
+      "light": "#2a2a2a"
+    },
+    "diffHunkHeader": {
+      "dark": "#0f2f0f",
+      "light": "#1a1a1a"
+    },
+    "diffHighlightAdded": {
+      "dark": "#0f3f0f",
+      "light": "#0f2f0f"
+    },
+    "diffHighlightRemoved": {
+      "dark": "#3f0f0f",
+      "light": "#2f0f0f"
+    },
+    "diffAddedBg": {
+      "dark": "#001a00",
+      "light": "#002800"
+    },
+    "diffRemovedBg": {
+      "dark": "#1a0000",
+      "light": "#280000"
+    },
+    "diffContextBg": {
+      "dark": "hackerDark",
+      "light": "#0d0d0d"
+    },
+    "diffLineNumber": {
+      "dark": "#1a5c1a",
+      "light": "#3a3a3a"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#0f2f0f",
+      "light": "#1a3a1a"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#2f0f0f",
+      "light": "#3a1a1a"
+    },
+    "markdownText": {
+      "dark": "matrixGreen",
+      "light": "#00cc00"
+    },
+    "markdownHeading": {
+      "dark": "brightGreen",
+      "light": "matrixGreen"
+    },
+    "markdownLink": {
+      "dark": "neonGreen",
+      "light": "terminalGreen"
+    },
+    "markdownLinkText": {
+      "dark": "limeGreen",
+      "light": "matrixGreen"
+    },
+    "markdownCode": {
+      "dark": "brightGreen",
+      "light": "terminalGreen"
+    },
+    "markdownBlockQuote": {
+      "dark": "#1a5c1a",
+      "light": "#2a4a2a"
+    },
+    "markdownEmph": {
+      "dark": "terminalGreen",
+      "light": "limeGreen"
+    },
+    "markdownStrong": {
+      "dark": "brightGreen",
+      "light": "matrixGreen"
+    },
+    "markdownHorizontalRule": {
+      "dark": "#1a5c1a",
+      "light": "#2a2a2a"
+    },
+    "markdownListItem": {
+      "dark": "matrixGreen",
+      "light": "#00cc00"
+    },
+    "markdownListEnumeration": {
+      "dark": "limeGreen",
+      "light": "terminalGreen"
+    },
+    "markdownImage": {
+      "dark": "neonGreen",
+      "light": "terminalGreen"
+    },
+    "markdownImageText": {
+      "dark": "brightGreen",
+      "light": "matrixGreen"
+    },
+    "markdownCodeBlock": {
+      "dark": "brightGreen",
+      "light": "terminalGreen"
+    },
+    "syntaxComment": {
+      "dark": "#1a5c1a",
+      "light": "#2a6a2a"
+    },
+    "syntaxKeyword": {
+      "dark": "brightGreen",
+      "light": "matrixGreen"
+    },
+    "syntaxFunction": {
+      "dark": "neonGreen",
+      "light": "terminalGreen"
+    },
+    "syntaxVariable": {
+      "dark": "terminalGreen",
+      "light": "limeGreen"
+    },
+    "syntaxString": {
+      "dark": "brightGreen",
+      "light": "matrixGreen"
+    },
+    "syntaxNumber": {
+      "dark": "limeGreen",
+      "light": "terminalGreen"
+    },
+    "syntaxType": {
+      "dark": "neonGreen",
+      "light": "brightGreen"
+    },
+    "syntaxOperator": {
+      "dark": "terminalGreen",
+      "light": "matrixGreen"
+    },
+    "syntaxPunctuation": {
+      "dark": "#1a5c1a",
+      "light": "#2a2a2a"
+    }
+  }
+}

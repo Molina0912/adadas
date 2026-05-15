@@ -1,0 +1,122 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  "instructions": [
+    "~/.config/opencode/AGENTS.md",
+    "~/.config/opencode/PERSISTENCE-CORE.md",
+    "~/.config/opencode/rules/README.md",
+    "~/.config/opencode/rules/zero-errors.md",
+    "~/.config/opencode/rules/js-module-validator.md",
+    "~/.config/opencode/rules/mcp-documentation.md",
+    "~/.config/opencode/rules/context-first.md",
+    "~/.config/opencode/rules/verify-before-claim.md",
+    "~/.config/opencode/rules/parallel-tool-calls.md",
+    "~/.config/opencode/rules/secrets-and-env.md",
+    "~/.config/opencode/rules/error-recovery.md",
+    "~/.config/opencode/rules/scope-discipline.md",
+    "~/.config/opencode/rules/edit-over-rewrite.md",
+    "~/.config/opencode/rules/dependency-hygiene.md",
+    "~/.config/opencode/rules/test-pyramid.md",
+    "~/.config/opencode/rules/commit-atomicity.md",
+    "~/.config/opencode/rules/logging-standards.md",
+    "~/.config/opencode/rules/accessibility-baseline.md",
+    "~/.config/opencode/rules/performance-budgets.md",
+    "~/.config/opencode/rules/response-format.md",
+    "~/.config/opencode/rules/stop-and-ask.md",
+    "~/.config/opencode/rules/memory-discipline.md",
+    "~/.config/opencode/rules/domain-driven-boundaries.md",
+    "~/.config/opencode/rules/anti-side-effects.md",
+    "~/.config/opencode/rules/api-contract-discipline.md",
+    "~/.config/opencode/rules/security-hardening.md",
+    "~/.config/opencode/rules/input-sanitization.md",
+    "~/.config/opencode/rules/cognitive-loop.md",
+    "~/.config/opencode/rules/reasoning-protocol.md",
+    "~/.config/opencode/rules/task-decomposition.md",
+    "~/.config/opencode/rules/decision-log.md",
+    "~/.config/opencode/rules/rollback-strategy.md",
+    "~/.config/opencode/rules/self-review.md",
+    "~/.config/opencode/rules/regression-enforcement.md",
+    "~/.config/opencode/rules/module-isolation.md",
+    "~/.config/opencode/rules/responsive-first.md",
+    "~/.config/opencode/rules/state-management-discipline.md",
+    "~/.config/opencode/rules/documentation-sync.md"
+  ],
+
+  "skills": {
+    "paths": [
+      "~/.config/opencode/skills"
+    ]
+  },
+
+  "mcp": {
+    "discord-bot": {
+      "type": "local",
+      "command": ["C:\\Program Files\\nodejs\\node.exe", "C:\\Users\\Angelo\\Pictures\\Nueva carpeta\\discord-mcp\\build\\index.js"],
+      "env": {
+        "DISCORD_BOT_TOKEN": "${DISCORD_BOT_TOKEN}"
+      },
+      "enabled": true
+    },
+    "web-tools": {
+      "type": "local",
+      "command": ["C:\\Program Files\\nodejs\\node.exe", "C:\\Users\\Angelo\\Pictures\\Nueva carpeta\\Nueva carpeta\\web-tools-mcp\\build\\index.js"],
+      "enabled": true
+    },
+    "libre-research": {
+      "type": "local",
+      "command": ["uv", "--directory", "C:\\Users\\Angelo\\Pictures\\Nueva carpeta (3)\\libre-research", "run", "libre-research"],
+      "enabled": true
+    },
+    "mcp-docs": {
+      "type": "remote",
+      "url": "https://gitmcp.io/docs",
+      "enabled": true
+    },
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "enabled": true
+    }
+  },
+
+  "default_agent": "zero-errors-agent",
+
+  "compaction": {
+    "auto": true,
+    "tail_turns": 15
+  },
+
+  "watcher": {
+    "ignore": [
+      "node_modules/**",
+      "dist/**",
+      ".git/**",
+      "*.log",
+      ".cache/**"
+    ]
+  },
+
+  "autoupdate": "notify",
+
+  "share": "manual",
+
+  "formatter": {
+    "prettier": {
+      "disabled": false
+    }
+  },
+
+  "lsp": true,
+
+  "theme": "tokyonight",
+
+  "permission": {
+    "filesystem.read": "allow",
+    "filesystem.write": "ask",
+    "shell.exec.safe": "allow",
+    "shell.exec.dangerous": "deny",
+    "network.read": "allow",
+    "network.write": "ask",
+    "*": "deny"
+  }
+}
